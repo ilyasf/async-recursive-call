@@ -1,0 +1,29 @@
+{
+  "name": "async-recursive-call",
+  "version": "1.0.0",
+  "description": "Recursively call asyn function untill result pass checks or cancel function returns false",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest test",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyasf/async-recursive-call.git"
+  },
+  "keywords": [
+    "typescript",
+    "async",
+    "recursieve"
+  ],
+  "author": "Ilias Fasikhov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilyasf/async-recursive-call/issues"
+  },
+  "homepage": "https://github.com/ilyasf/async-recursive-call#readme",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "typescript": "^5.1.3"
+  }
+}
