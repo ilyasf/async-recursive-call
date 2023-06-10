@@ -1,11 +1,13 @@
 {
   "name": "async-recursive-call",
+  "type": "module",
   "version": "1.0.0",
-  "description": "Recursively call asyn function untill result pass checks or cancel function returns false",
-  "main": "index.ts",
+  "description": "Recursively call async function until result pass checks or cancel function returns false",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest test",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -14,7 +16,7 @@
   "keywords": [
     "typescript",
     "async",
-    "recursieve"
+    "recursive"
   ],
   "author": "Ilias Fasikhov",
   "license": "MIT",
