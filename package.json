@@ -1,9 +1,9 @@
 {
   "name": "async-recursive-call",
-  "type": "module",
+  "type": "commonjs",
   "version": "1.0.0",
   "description": "Recursively call async function until result pass checks or cancel function returns false",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",

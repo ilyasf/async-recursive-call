@@ -1,4 +1,4 @@
-import { delay } from "./dealy";
+import { delay } from "./delay";
 
 export async function recursiveCall(
   fn: () => Promise<unknown>,
