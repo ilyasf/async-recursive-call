@@ -1,6 +1,12 @@
 # async-recursive-call
 
-This repo provides functionality to run async code recursively
+Small repo that provides functionality to run async code recursively
+until check or cancellation functions return true.
+
+Idea of creating was based on needs to check that API for service mesh started successfully
+in a given time limit.
+
+Can be used both on server side and browsers.
 
 ## install
 
@@ -10,6 +16,10 @@ This repo provides functionality to run async code recursively
 
 ```typescript
 import { recursiveCall } from 'async-recursive-call';
+
+const MAX_TIME = process.env.SERVICE_MAX_START_TIME ?? 2 * 1000;
+
+const fetchMock = () => fetch(process.env.SERVICE_URL);
 
 ....
 async function checkMyServer() {
@@ -33,3 +43,10 @@ checkMyServer();
 ```
 
 ## test
+
+To run tests use command
+`npm run test`
+
+## license
+
+MIT
