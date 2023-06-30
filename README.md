@@ -1,4 +1,4 @@
-![build](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![build](https://github.com/ilyasf/async-recursive-call/actions/workflows/build-check.yml/badge.svg)
 
 # async-recursive-call
 
