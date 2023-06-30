@@ -1,3 +1,5 @@
+![build](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+
 # async-recursive-call
 
 Small repo that provides functionality to run async code recursively

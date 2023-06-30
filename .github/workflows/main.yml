@@ -1,4 +1,4 @@
-name: Publish to npm
+name: Test build success
 
 on:
   push:
@@ -23,8 +23,4 @@ jobs:
 
       - name: Build library
         run: npm run build
-
-      - name: Publish to npm
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      
