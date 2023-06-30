@@ -15,7 +15,7 @@ Can be used both on server side and browsers.
 ## Example of usage
 
 ```typescript
-import { recursiveCall } from 'async-recursive-call';
+import { recursiveCall, delay } from 'async-recursive-call';
 
 const MAX_TIME = process.env.SERVICE_MAX_START_TIME ?? 2 * 1000;
 
